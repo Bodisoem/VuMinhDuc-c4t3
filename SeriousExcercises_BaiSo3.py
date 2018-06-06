@@ -10,11 +10,12 @@
 
 #Phan b
 
-dayso = ["0","1"]
+dayso = [0,1]
 
 solan = int(input("Ban muon lap bao nhieu lan ?"))
 
 for _ in range(solan):
     dayso.append("0")
     dayso.append("1")
+
 print(*dayso)
